@@ -1,6 +1,7 @@
 //! Version 1 of the HAProxy protocol (text version).
 //!
 //! See <https://haproxy.org/download/1.8/doc/proxy-protocol.txt>
+use std::prelude::v1::*;
 
 mod error;
 mod model;

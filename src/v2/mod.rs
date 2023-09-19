@@ -1,6 +1,7 @@
 //! Version 2 of the HAProxy protocol (binary version).
 //!
 //! See <https://haproxy.org/download/1.8/doc/proxy-protocol.txt>
+use std::prelude::v1::*;
 
 mod builder;
 mod error;

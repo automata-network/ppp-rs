@@ -1,6 +1,12 @@
 //! A Proxy Protocol Parser written in Rust.
 //! Supports both text and binary versions of the header protocol.
 
+#![cfg_attr(feature = "tstd", no_std)]
+
+#[cfg(feature = "tstd")]
+#[macro_use]
+extern crate sgxlib as std;
+
 mod ip;
 
 pub mod v1;

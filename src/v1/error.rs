@@ -1,4 +1,5 @@
 //! Errors for the text proxy protocol.
+use std::prelude::v1::*;
 
 /// An error in parsing a text PROXY protocol header.
 #[derive(thiserror::Error, Debug, PartialEq)]

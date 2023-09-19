@@ -1,4 +1,5 @@
 //! Models for storing IP v4 and v6 addresses and ports.
+use std::prelude::v1::*;
 
 use std::net::{Ipv4Addr, Ipv6Addr};
 

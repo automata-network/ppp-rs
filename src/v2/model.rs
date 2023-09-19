@@ -1,3 +1,5 @@
+use std::prelude::v1::*;
+
 use crate::ip::{IPv4, IPv6};
 use crate::v2::error::ParseError;
 use std::borrow::Cow;
