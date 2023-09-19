@@ -1,4 +1,5 @@
 //! The data model to represent the test PROXY protocol header.
+use std::prelude::v1::*;
 
 use crate::ip::{IPv4, IPv6};
 use std::borrow::Cow;

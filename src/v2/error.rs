@@ -1,4 +1,5 @@
 //! Errors for the binary proxy protocol.
+use std::prelude::v1::*;
 
 /// An error in parsing a binary PROXY protocol header.
 #[derive(thiserror::Error, Debug, PartialEq)]

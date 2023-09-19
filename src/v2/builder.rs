@@ -1,4 +1,5 @@
 //! Builder pattern to generate both valid and invalid PROXY protocol v2 headers.
+use std::prelude::v1::*;
 
 use crate::v2::{
     Addresses, Protocol, Type, TypeLengthValue, TypeLengthValues, LENGTH, MINIMUM_LENGTH,
